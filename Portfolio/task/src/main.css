@@ -17,12 +17,15 @@ body {
 
 /*section {background-color: #FFA500}*/
 header {
+    position: fixed;
     text-align: center;
     overflow: hidden;
     /*height: 2em;*/
+    width: 100%;
     padding: 1em;
     /*margin-bottom: 1em;*/
-    background: #fdffdc;
+    background: rgba(255,255,255,0.9);
+    /*background-color: #fdffdc;*/
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(10px);
 
@@ -36,14 +39,33 @@ footer div{
 }
 
 section {
-    margin: 1em 0;
+    margin: 1em;
 }
 
 img{
-
+    /*width: 100%;*/
+    margin: auto;
+    padding: 4em 0 0 0;
+    display: block;
 }
 
 li {
     /*list-style: decimal;*/
     list-style: circle;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*flex-flow: row-reverse wrap;*/
+}
+
+.flex-container div{
+    margin-right: 1em;
+    background: white;
+    padding: 1em;
+    border-radius: 1em;
+    /*text-align: justify;*/
+    box-shadow: 0 0 20px 0 #FFFFFF;
 }
