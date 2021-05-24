@@ -45,6 +45,7 @@ header {
 
 .hamburger {
     display: none;
+    animation: fadeIn 1s;
 }
 
 .topnav a{
@@ -130,6 +131,7 @@ button {
     background-color: black;
     padding: 5em;
     border: 10px #FFFFFF;
+    border-radius: 20px;
     text-align: center;
 }
 
@@ -155,7 +157,7 @@ img{
     width: 200px;
 }
 
-li {
+ul {
     /*list-style: decimal;*/
     list-style: circle;
 }
