@@ -22,8 +22,8 @@ window.onload = function() {
     }
 
     // nav
-    let icon = document.querySelector(".icon");
-    let y = document.querySelector(".hamburger")
+    // let icon = document.querySelector(".icon");
+    // let y = document.querySelector(".hamburger")
 
     // icon.onclick = function() {
     //     if (y.style.display === "block") {
