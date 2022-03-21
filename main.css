@@ -16,6 +16,7 @@ section:first-child {
 body {
     /*font-family: 'Courier New', monospace;*/
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
     margin: 0;
     background: linear-gradient(#4c67cc, #91e5b3);
 }

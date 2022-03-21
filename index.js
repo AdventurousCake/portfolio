@@ -6,16 +6,17 @@ window.onload = function() {
     let flash = document.querySelector(".open-window");
     let close = document.querySelector(".close-window");
 
-    flash.onclick = function () {
-        // popup.style.display = "block";
-        // popup.classList.toggle('active')
-        let x = popup;
-        if (x.style.display === "block") {
-            x.style.display = "none";
-        } else {
-            x.style.display = "block";
-        }
-    }
+    // fix if null
+    // flash.onclick = function () {
+    //     // popup.style.display = "block";
+    //     // popup.classList.toggle('active')
+    //     let x = popup;
+    //     if (x.style.display === "block") {
+    //         x.style.display = "none";
+    //     } else {
+    //         x.style.display = "block";
+    //     }
+    // }
 
     close.onclick = function () {
         popup.style.display = "none";
