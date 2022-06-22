@@ -8,6 +8,7 @@ section h1{
     /*margin: 0.5em 0;*/
 }
 
+/*todo: use id?*/
 /*for first content*/
 section:first-child {
     margin-top: 4em;
@@ -84,7 +85,7 @@ header {
     }
 
     .content {
-        max-width: 85vw;
+        max-width: 85%; /* or 85% */
     }
 }
 
