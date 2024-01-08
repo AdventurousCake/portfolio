@@ -8,7 +8,6 @@ section h1{
     /*margin: 0.5em 0;*/
 }
 
-/*todo: use id?*/
 /*for first content*/
 section:first-child {
     margin-top: 4em;
@@ -22,6 +21,7 @@ body {
     background: linear-gradient(#4c67cc, #91e5b3);
 }
 
+/*NAV*/
 /*section {background-color: #FFA500}*/
 header {
     top: 0;
@@ -183,6 +183,7 @@ ul {
     list-style: circle;
 }
 
+/*contacts*/
 .flex-container{
     display: flex;
     flex-direction: row;
