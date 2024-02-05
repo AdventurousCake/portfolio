@@ -18,7 +18,11 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin: 0;
-    background: linear-gradient(#4c67cc, #91e5b3);
+
+    /*https://uigradients.com/#LightOrange*/
+    /*background: linear-gradient(#4c67cc, #91e5b3);*/
+    /*pink background: linear-gradient(to bottom, #ff0099, #493240);*/
+    background: linear-gradient(to bottom, #fdc830, #f37335);
 }
 
 /*NAV*/
@@ -108,7 +112,8 @@ header {
 }
 
 footer {
-    background: #fdffdc;
+    color: antiquewhite;
+    background: rgba(0, 0, 0, 0.13);
     text-align: center;
     padding: 0.5em;
     /*margin: 0 auto;*/
