@@ -22,33 +22,21 @@ window.onload = function() {
         popup.style.display = "none";
     }
 
-    // nav
-    // let icon = document.querySelector(".icon");
-    // let y = document.querySelector(".hamburger")
-
-    // icon.onclick = function() {
-    //     if (y.style.display === "block") {
-    //         alert("none")
-    //         y.style.display = "none";
-    //     } else {
-    //         alert("block")
-    //         y.style.display = "block";
-    //     }
-    //     // y.style.display = "block";
-    // }
-    //     icon.addEventListener("click", alert(123));
     function menuOpen() {
         let hamburgerBtn = document.querySelector(".icon");
         let mobileMenu = document.querySelector(".hamburger")
 
-
-        hamburgerBtn.addEventListener("click", ()=> {
+        function show(e){
             if(mobileMenu.style.display === "block") {
                 mobileMenu.style.display = "none";
             } else {
                 mobileMenu.style.display = "block";
             }
-        })
+        }
+
+        hamburgerBtn.addEventListener("click", show);
+        hamburgerBtn.addEventListener("mouseover", show);
+
     }
 
     menuOpen();
