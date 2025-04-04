@@ -2,9 +2,9 @@
 
 window.onload = function() {
     // popup
-    let popup = document.querySelector(".window");
-    let flash = document.querySelector(".open-window");
-    let close = document.querySelector(".close-window");
+    // let popup = document.querySelector(".window");
+    // let flash = document.querySelector(".open-window");
+    // let close = document.querySelector(".close-window");
 
     // fix if null
     // flash.onclick = function () {
@@ -17,10 +17,6 @@ window.onload = function() {
     //         x.style.display = "block";
     //     }
     // }
-
-    close.onclick = function () {
-        popup.style.display = "none";
-    }
 
     function menuOpen() {
         let hamburgerBtn = document.querySelector(".icon");
@@ -35,7 +31,7 @@ window.onload = function() {
         }
 
         hamburgerBtn.addEventListener("click", show);
-        hamburgerBtn.addEventListener("mouseover", show);
+        // hamburgerBtn.addEventListener("mouseover", show);
 
     }
 
